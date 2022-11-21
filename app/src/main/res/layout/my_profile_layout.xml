@@ -8,6 +8,7 @@
 
 
     <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/appCompatImageView"
         android:layout_width="412dp"
         android:layout_height="match_parent"
         android:layout_marginTop="-360dp"
@@ -39,7 +40,7 @@
         android:layout_marginBottom="50dp"
         android:text="@string/name"
         android:textColor="@color/white"
-        android:textSize="35sp"
+        android:textSize="28sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,12 +50,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/online"
-        android:textSize="30sp"
+        android:textSize="20sp"
         android:textColor="@color/white"
         android:layout_marginStart="13dp"
         android:layout_marginBottom="-20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="Account"
+        android:textColor="#218ADA"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="13dp"
         tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
