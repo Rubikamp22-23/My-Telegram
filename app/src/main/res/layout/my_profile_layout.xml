@@ -11,9 +11,8 @@
         android:id="@+id/appCompatImageView"
         android:layout_width="412dp"
         android:layout_height="match_parent"
-        android:layout_marginTop="-360dp"
+        android:layout_marginTop="-500dp"
         android:src="@drawable/my_profile"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
@@ -37,7 +36,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="13dp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="190dp"
         android:text="@string/name"
         android:textColor="@color/white"
         android:textSize="28sp"
@@ -53,7 +52,7 @@
         android:textSize="20sp"
         android:textColor="@color/white"
         android:layout_marginStart="13dp"
-        android:layout_marginBottom="-20dp"
+        android:layout_marginBottom="130dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -62,12 +61,22 @@
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="150dp"
         android:text="Account"
         android:textColor="#218ADA"
         android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginStart="13dp"
+        android:layout_marginBottom="-0dp"
         tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/add_photo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="90dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
