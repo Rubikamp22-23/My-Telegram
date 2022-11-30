@@ -2,4 +2,6 @@
     <string name="app_name">my app BR</string>
     <string name="name">Bahar Razavi</string>
     <string name="online">Online</string>
+    <string name="username">"@BaharRazavi87</string>
+    <string name="notifications_for_chats">Notifications for chats</string>
 </resources>
