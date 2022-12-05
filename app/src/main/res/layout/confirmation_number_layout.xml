@@ -7,7 +7,7 @@
 <androidx.appcompat.widget.AppCompatTextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="Please type the confirmation number"
+    android:text="@string/please_type_the_confirmation_number"
     app:layout_constraintTop_toTopOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
@@ -15,8 +15,7 @@
     android:textSize="28sp"
     android:textColor="@color/black"
     android:layout_gravity="center"
-    android:gravity="center"
-    />
+    android:gravity="center" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
@@ -24,16 +23,15 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:layout_width="200sp"
         android:layout_height="60dp"
         android:inputType="textPassword"
         android:ems="15"
-        android:hint="Enter the code"
-        android:textSize="24dp"
+        android:hint="@string/enter_the_code"
+        android:textSize="24sp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,7 +42,7 @@
         android:layout_width="390dp"
         android:layout_height="80dp"
         android:textColor="@color/white"
-        android:text="finish"
+        android:text="@string/finish"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"

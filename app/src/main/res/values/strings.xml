@@ -4,4 +4,7 @@
     <string name="online">Online</string>
     <string name="username">"@BaharRazavi87</string>
     <string name="notifications_for_chats">Notifications for chats</string>
+    <string name="please_type_the_confirmation_number">Please type the confirmation number</string>
+    <string name="enter_the_code">Enter the code</string>
+    <string name="finish">finish</string>
 </resources>
