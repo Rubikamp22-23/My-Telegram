@@ -84,7 +84,7 @@
         android:layout_height="20dp"
         android:layout_marginStart="13dp"
         android:layout_marginTop="90dp"
-        android:text="@string/_98_903_818_7480"
+        android:text="98 903 818 7480"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
