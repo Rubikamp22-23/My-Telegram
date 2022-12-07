@@ -7,4 +7,19 @@
     <string name="please_type_the_confirmation_number">Please type the confirmation number</string>
     <string name="enter_the_code">Enter the code</string>
     <string name="finish">finish</string>
+    <string name="account">Account</string>
+    <string name="_98_903_818_7480">+98 903 818 7480</string>
+    <string name="username1">Username</string>
+    <string name="strive_for_what_you_want_not_wish">Strive for what you want, not wish.🦋</string>
+    <string name="baharrazavi87">BaharRazavi87</string>
+    <string name="tap_to_change_phone_number">Tap to change phone number</string>
+    <string name="bio">Bio</string>
+    <string name="private_chats">Private Chats</string>
+    <string name="Farsi">فارسی</string>
+    <string name="english">English</string>
+    <string name="enter_your_phone_number">Enter your phone number:</string>
+    <string name="phone_number">phone number</string>
+    <string name="start_messaging">Start Messaging</string>
+    <string name="welcome_to_telegram">Welcome to Telegram\!</string>
+    <string name="todo">TODO</string>
 </resources>

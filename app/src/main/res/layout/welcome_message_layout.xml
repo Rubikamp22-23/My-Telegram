@@ -6,7 +6,8 @@
     android:layout_width="300dp"
     android:layout_height="300dp"
     android:src="@drawable/telegram_icon"
-    android:layout_marginStart="50dp"/>
+    android:layout_marginStart="50dp"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:layout_width="match_parent"
@@ -14,7 +15,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="270dp"
         android:fontFamily="sans-serif-medium"
-        android:text="Welcome to Telegram!"
+        android:text="@string/welcome_to_telegram"
         android:textColor="@color/black"
         android:textSize="30sp" />
 
@@ -26,7 +27,7 @@
         android:layout_marginBottom="20sp"
         android:layout_marginStart="10dp"
         android:backgroundTint="@color/tel_blue"
-        android:text="Start Messaging"
+        android:text="@string/start_messaging"
         android:textSize="20sp" />
 
 </FrameLayout>

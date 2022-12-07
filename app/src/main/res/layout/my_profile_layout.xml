@@ -61,7 +61,7 @@
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Account"
+        android:text="@string/account"
         android:textColor="#218ADA"
         android:textSize="22sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -80,11 +80,11 @@
         android:layout_marginBottom="90dp"/>
 
     <TextView
-        android:layout_width="۱۲۹dp"
-        android:layout_height="۲۰dp"
+        android:layout_width="129dp"
+        android:layout_height="20dp"
         android:layout_marginStart="13dp"
         android:layout_marginTop="90dp"
-        android:text="+98 903 818 7480"
+        android:text="@string/_98_903_818_7480"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -95,7 +95,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="14sp"
-        android:text="Tap to change phone number"
+        android:text="@string/tap_to_change_phone_number"
         android:textColor="@color/gray"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -106,7 +106,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@BaharRazavi87"
+        android:text="@string/baharrazavi87"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginTop="200dp"
@@ -119,7 +119,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="14sp"
-        android:text="Username"
+        android:text="@string/username1"
         android:textColor="@color/gray"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -130,7 +130,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Strive for what you want, not wish.🦋"
+        android:text="@string/strive_for_what_you_want_not_wish"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginTop="310dp"
@@ -142,7 +142,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bio"
+        android:text="@string/bio"
         android:textSize="14sp"
         android:textColor="@color/gray"
         app:layout_constraintTop_toTopOf="parent"
@@ -164,4 +164,83 @@
         tools:ignore="MissingConstraints"
         android:layout_marginTop="430dp"/>
 
+   <androidx.appcompat.widget.AppCompatTextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/private_chats"
+       android:textColor="@color/black"
+       android:textSize="20sp"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       android:layout_marginStart="13dp"
+       android:layout_marginTop="500dp"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="20sp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Language"
+        android:textColor="#218ADA"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="22dp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="600dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/english"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="670dp"/>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Farsi"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="740dp"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="20sp"
+        android:layout_marginTop="670dp"
+        android:checked="true"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="20sp"
+        android:layout_marginTop="740dp"
+        android:checked="false"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
