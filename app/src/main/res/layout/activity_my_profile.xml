@@ -3,8 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".mainactivity">
+    android:layout_height="match_parent">
 
 
     <androidx.appcompat.widget.AppCompatImageView
@@ -17,6 +16,7 @@
         tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/back_button"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:src="@drawable/back_button3"
@@ -84,12 +84,13 @@
         android:layout_height="20dp"
         android:layout_marginStart="13dp"
         android:layout_marginTop="90dp"
-        android:text="98 903 818 7480"
+        android:text="@string/_98_903_818_7480"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
@@ -164,17 +165,17 @@
         tools:ignore="MissingConstraints"
         android:layout_marginTop="430dp"/>
 
-   <androidx.appcompat.widget.AppCompatTextView
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:text="@string/private_chats"
-       android:textColor="@color/black"
-       android:textSize="20sp"
-       app:layout_constraintTop_toTopOf="parent"
-       app:layout_constraintBottom_toBottomOf="parent"
-       app:layout_constraintStart_toStartOf="parent"
-       android:layout_marginStart="13dp"
-       android:layout_marginTop="500dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/private_chats"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="500dp"/>
 
     <androidx.appcompat.widget.SwitchCompat
         android:layout_width="wrap_content"
@@ -189,7 +190,7 @@
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Language"
+        android:text="@string/language"
         android:textColor="#218ADA"
         android:textSize="22sp"
         app:layout_constraintStart_toStartOf="parent"
